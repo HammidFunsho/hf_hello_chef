@@ -24,7 +24,7 @@ yum_package 'wget' do
 end
 
 template '/etc/yum.repos.d/Nexus-Hello-World.repo' do
-  source 'Nexus-Hello-World.repo'
+  source 'Nexus-Hello-World.repo.erb'
   owner 'centos'
   group 'centos'
   mode '0755'
