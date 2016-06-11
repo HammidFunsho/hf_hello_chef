@@ -7,6 +7,6 @@ node_name                "hwdemo"
 client_key               "~/hwdemo.pem"
 validation_client_name   "covonboard-validator"
 validation_key           "#{current_dir}/covonboard-validator.pem"
-chef_server_url          "ec2-54-174-130-165.compute-1.amazonaws.com/organizations/covonboard"
+chef_server_url          "https://ec2-54-174-130-165.compute-1.amazonaws.com/organizations/covonboard"
 cookbook_path            ["#{current_dir}/../cookbooks"]
 knife[:aws_credential_file] =  "/home/centos/aws.txt"
